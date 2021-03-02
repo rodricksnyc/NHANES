@@ -1198,13 +1198,6 @@ label.error{
   color:black
 }
 
-.form-login-a {
-  /* font-size: 11px;
-  float: right;
-  margin: 0px 0px 0px 5px;
-  margin-top: -5px; */
-  /* text-decoration: none !important; */
-}
 .menu-buttons {
   width: 60%;
   margin: -200px auto 100px;
@@ -1217,8 +1210,6 @@ label.error{
   margin: 50px auto 100px;
   position: relative;
 }
-
-
 
 
 .menu-buttons-list {
@@ -2893,19 +2884,19 @@ p.modalFooter {
 
 .menu-buttons-768-list li:hover {
   font-weight: 800;
-  background: #125086;
+  background: linear-gradient(39.55deg, #0069AA 1.89%, #54A6FE 96.92%);
   box-shadow: 0px 0px 9px rgba(0, 0, 0, .85);
   opacity: 1;
-  color: #FFD469;
+  color: white;
 
 }
 
 .menu-buttons-768-list li:nth-of-type(4):focus {
   font-weight: 800;
-  background: #125086;
+  background: linear-gradient(39.55deg, #0069AA 1.89%, #54A6FE 96.92%);
   box-shadow: 0px 0px 9px rgba(0, 0, 0, .85);
   opacity: 1;
-  color: #FFD469;
+  color: white;
 }
 
 .menu-buttons-768-list li:nth-of-type(1) {
