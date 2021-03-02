@@ -156,7 +156,7 @@ $(document).ready(function () {
 			pwShown = 1;
 			show();
 
-			$("#eye").attr('src',"images/close-eye.svg");
+			$("#eye").replaceWith('<i id="eye" class="fas fa-eye-slash"></i>');
 
 
 			$('#access').html('Hide Password')
@@ -165,7 +165,7 @@ $(document).ready(function () {
 			pwShown = 0;
 			hide();
 
-			$("#eye").attr('src',"images/show-access.svg");
+			$("#eye").replaceWith('<i id="eye" class="far fa-eye"></i>');
 			$('#access').html('Show Password')
 		}
 

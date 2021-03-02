@@ -1181,9 +1181,7 @@ label.error{
   bottom: 0.375em;
 }
 
-.landing-panel .checkbox:hover label, .landing-panel .checkbox:focus label{
-  text-decoration: underline;
-}
+
 
 .landing-panel .checkbox label input {
   display: none;
@@ -2107,7 +2105,13 @@ label.togglePassword {
 }
 
 #eye, #eye2 {
-  margin-right:4px;
+  margin-right: 4px;
+  font-size: 18px;
+  color: #003D7E;
+}
+
+.checkbox:hover {
+
 }
 
 .around .vertical .fas {
@@ -3818,9 +3822,6 @@ button.close {
     height: 500px;
   }
 
-
-
-
   .imgTop {
     top:-2%
   }
@@ -3833,7 +3834,7 @@ button.close {
   }
 
   .menu-buttons {
-    width: 70%;
+    width: 85%;
   }
 }
 
@@ -3880,7 +3881,7 @@ button.close {
     height: 500px;
   }
   .menu-buttons {
-    width: 80%;
+    width: 90%;
   }
 
 
@@ -3916,7 +3917,7 @@ button.close {
   }
 
   .menu-buttons {
-    width: 96%;
+    width: 90%;
   }
 
 
