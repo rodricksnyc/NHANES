@@ -85,15 +85,6 @@ $(document).ready(function () {
 
 
 
-		$('.pin').attr('src',"images/pin-mobile.svg")
-		$('.reward').attr('src',"images/Reward-mobile.svg")
-
-		$('.select').attr('src',"images/Select-answer-mobile.svg")
-		$('.next').attr('src',"images/Next-back-mobile.svg")
-		$('.submit').attr('src',"images/Submit-mobile.svg")
-
-
-
 
 	}
 
