@@ -1041,7 +1041,7 @@ label.error{
   width: 100%;
   height: 600px;
   padding-top: 5%;
-  background-image: url(../img/banner.png);
+  background-image: url(../img/banner.jpg);
   height: inherit;
   min-height: inherit;
   background-size: cover;
@@ -1055,7 +1055,7 @@ label.error{
   position: relative;
   display: flex;
   align-items: center;
-  min-height: 44rem;
+  min-height: 48rem;
 
   max-height: 78rem;
 }
@@ -1199,7 +1199,7 @@ label.error{
 
 .menu-buttons {
   width: 60%;
-  margin: -200px auto 100px;
+  margin: -200px auto 60px;
   position: relative;
 }
 
