@@ -1000,7 +1000,7 @@ label.error{
 .btnSaveExit:hover,
 .btnBegin:focus,
 .btnBegin:hover {
-    background: #0069AA;
+  background: #0069AA;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   outline: none;
   color: #F3C042;
@@ -1030,7 +1030,11 @@ label.error{
   padding: 7px;
   border-radius: 20px;
   font-size: 15px;
-  bottom:64px;
+  bottom:40px;
+}
+
+.blue{
+  color:#003D7E
 }
 
 .hero-img {
@@ -1062,7 +1066,7 @@ label.error{
   margin: 0px auto 0px;
   background: rgba(255, 255, 255, 0.95);
   border-radius: 10px;
-  padding: 40px 40px 100px;
+  padding: 30px 40px 80px;
   position: relative;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1), 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
   color:black;
@@ -4941,7 +4945,7 @@ button.close {
     position: relative;
     display: flex;
     align-items: center;
-    min-height: 25rem;
+    min-height: 37rem;
     max-height: 38rem;
     margin-bottom: 13rem;
   }
@@ -5114,6 +5118,7 @@ button.close {
   .menu-buttons-768{
     display: block;
     opacity: 1;
+    box-shadow: none;
   }
 
   .contactUs, .resourcesInfo{
@@ -5623,10 +5628,18 @@ button.close {
   }
 }
 
+@media (max-width:362px) {
+
+  .hero-img-container {
+    min-height: 38rem;
+  }
+
+}
+
 @media (max-width:330px) {
 
   .hero-img-container {
-    min-height: 35rem;
+    min-height: 43rem;
   }
 
 }
