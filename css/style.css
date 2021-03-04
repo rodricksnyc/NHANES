@@ -982,6 +982,17 @@ label.error{
 
 }
 
+.inactive{
+  background: #d1d3d4;
+  color: #6F6F6F;
+}
+
+.btnBegin.inactive:hover{
+  background: #d1d3d4;
+  color: #6F6F6F;
+}
+
+
 .btnPrevious {
   background-color: #FFFFFF;
   right: 120px;

@@ -14,6 +14,10 @@ $(document).ready(function () {
 	})
 
 
+	$('.form-signin-input input').keydown(function(event) {
+		$('.btnBegin').removeClass('inactive')
+
+	});
 
 
 	if ($(document).innerWidth() <= 767) {
