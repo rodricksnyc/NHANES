@@ -133,12 +133,12 @@ $(document).ready(function () {
 
 
 	function show() {
-		var p = $('#MainContent_txtAccessCode1');
+		var p = $('#AccessCode');
 		p.attr('type', 'text');
 	}
 
 	function hide() {
-		var p = $('#MainContent_txtAccessCode1');
+		var p = $('#AccessCode');
 		p.attr('type', 'password');
 	}
 

@@ -1201,7 +1201,7 @@ label.error{
   /* margin-top: -6px; */
 }
 
-#MainContent_txtAccessCode1, #MainContent_txtAccessCode2 {
+#AccessCode {
   color:black !important;
 }
 .form-login-input .form-control {
@@ -2224,10 +2224,10 @@ label.togglePassword {
   font-weight:900 !important
 }
 
-::-webkit-scrollbar {
-  width: 0px;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
-}
+/* ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+} */
 
 
 #slideOut2 button.close {
@@ -3041,8 +3041,13 @@ p.modalFooter {
   display:none;
 }
 
-html, body{
+html{
   overflow-x: hidden;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+     display: none;
 }
 
 .header-wrapper{
