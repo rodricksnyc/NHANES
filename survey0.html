@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	<title>National Health and Nutrition Examination Survey</title>
+	<link rel="stylesheet" href="vendorlibs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/SB9.css">
+	<link rel="stylesheet" href="css/survey.css">
+	<link rel="stylesheet" href="vendorlibs/font-awesome-pro/css/all.css">
+	<link rel="stylesheet" href="vendorlibs/normalize.min.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container-fluid overflow-hidden position-relative">
+		<header class="landing">
+			<div class="d-flex justify-content-start">
+				<a href="https://www.cdc.gov/" target="_blank">
+					<img src="img/cdc.png" class="img-fluid logo" alt="Center for Disease Control and Prevention Logo">
+				</a>
+				<a href="https://www.cdc.gov/nchs/nhanes/index.htm" target="_blank">
+					<img src="img/logo.svg" class="img-fluid logo" alt="National Health and Nutrition Examination Survey Logo">
+				</a>
+			</div>
+			<div class="end">
+				<div class="english activeDot" tabindex="0" aria-hidden="false" role="button">
+					<p class="initials">EN</p>
+				</div>
+				<div class="flip"></div>
+				<div class="spanish inactiveDot" tabindex="0" aria-hidden="false" role="button">
+					<p class="initials">ES</p>
+				</div>
+			</div>
+		</header>
+
+		<!-- survey form start -->
+
+		<form method="post" enctype="multipart/form-data">
+
+			<!-- please add survey-container div around all -->
+			<div class="survey-container">
+
+				<!-- please add survey-wrapper class to container class -->
+
+				<div class="container survey-wrapper">
+
+					<div id="survey">
+						<div class="" id="SB_1">
+							<div id="SB_2" class="fbpageitem">
+
+								<h2>Instructions for Completing the Survey</h2>
+								<ul>
+									<li>Please do NOT use your browser's forward and back buttons to navigate through the survey. If you do, the answers you have entered may be lost. Instead, please use the ‘Previous’ and ‘Next’ buttons on the bottom of each page.</li>
+									<li>If you would like to leave the survey before you are finished, please click on the ‘Save and Exit' button. Exiting out of your browser window will cause your data to be lost.</li>
+									<li>Once you complete the survey, you will be asked to submit it. Once you click the ‘Submit’ button,    you will not be able to re-enter your survey. To begin, please click ‘Next’</li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+
+
+
+					<!-- please add buttonGroup class to this row and remove mt-5-->
+
+					<div class="row buttonGroup">
+						<div class="col">
+							<!-- <button class="btn btn-outline-secondary" name="SB_nb" value="MovePrev">
+							Back
+						</button> -->
+
+						<button class="btn btn-outline-primary" name="SB_nb" value="MoveNext">
+							Next
+						</button>
+					</div>
+
+					<div class="col">
+						<span class="badge badge-dark">102</span>
+						<button class="btn btn-outline-secondary" value="MoveSaveExit" name="SB_nb">
+							Save &amp; Continue Later
+						</button>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</form>
+
+	<!-- survey form end -->
+
+	<footer>
+
+	</footer>
+
+
+</div>
+
+
+
+<script type="text/javascript" src="vendorlibs/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="vendorlibs/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

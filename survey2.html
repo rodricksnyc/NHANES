@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	<title>National Health and Nutrition Examination Survey</title>
+	<link rel="stylesheet" href="vendorlibs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/SB9.css">
+	<link rel="stylesheet" href="css/survey.css">
+	<link rel="stylesheet" href="vendorlibs/font-awesome-pro/css/all.css">
+	<link rel="stylesheet" href="vendorlibs/normalize.min.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container-fluid overflow-hidden position-relative">
+		<header class="landing">
+			<div class="d-flex justify-content-start">
+				<a href="https://www.cdc.gov/" target="_blank">
+					<img src="img/cdc.png" class="img-fluid logo" alt="Center for Disease Control and Prevention Logo">
+				</a>
+				<a href="https://www.cdc.gov/nchs/nhanes/index.htm" target="_blank">
+					<img src="img/logo.svg" class="img-fluid logo" alt="National Health and Nutrition Examination Survey Logo">
+				</a>
+			</div>
+			<div class="end">
+				<div class="english activeDot" tabindex="0" aria-hidden="false" role="button">
+					<p class="initials">EN</p>
+				</div>
+				<div class="flip"></div>
+				<div class="spanish inactiveDot" tabindex="0" aria-hidden="false" role="button">
+					<p class="initials">ES</p>
+				</div>
+			</div>
+		</header>
+
+		<!-- survey form start -->
+
+		<form method="post" enctype="multipart/form-data">
+
+			<!-- please add survey-container div around all -->
+			<div class="survey-container">
+
+				<!-- please add survey-wrapper class to container class -->
+
+				<div class="container survey-wrapper">
+
+					<div id="survey">
+						<div class="" id="SCQ070a">
+							<div id="SB_0" class="fbpageitem">
+
+								<fieldset class="q">
+									<legend displayorder="1" id="SB_4" number="" class="prompt">
+										<h1> About Your Household </h1>
+
+										<p>The address selected for this study is shown below. If it is correct, click "Next" to continue. If it is incorrect, update the information below.</p>
+
+										<p class="black">1600  Research Boulevard</p>
+
+										<p class="black">Rockville Maryland</p>
+									</legend>
+									<div class="response">
+										<div>
+											<a name="sec_addr"></a>
+											<label for="sec_addr" class=" ">Extra Address Line </label>
+											<input id="sec_addr" placeholder="" type="text" class="form-control" size="10" name="sec_addr" value="" maxlength="20">
+										</div>
+
+										<div displayorder="2" id="SB_8" class="form-row d-flex align-items-center">
+											<div class="form-group col-lg-1 col-sm-2 col-xs-12">
+												<a name="addr_street_no"></a>
+												<label for="addr_street_no" class=" ">Street # </label>
+												<input id="addr_street_no" placeholder="" type="text" class="form-control" size="5" name="addr_street_no" value="1600" maxlength="20">
+											</div>
+
+											<div class="form-group col-lg-2 col-sm-2 col-xs-12">
+												<a name="addr_street_dir_pre"></a>
+												<label for="addr_street_dir_pre" class=" ">Dir Pre </label>
+												<select class="form-control" name="addr_street_dir_pre" id="addr_street_dir_pre" size="1">
+													<option value=""></option>
+													<option value="E">East </option>
+													<option value="N">North </option>
+													<option value="NE">Northeast </option>
+													<option value="NW">Northwest </option>
+													<option value="S">South </option>
+													<option value="SE">Southeast </option>
+													<option value="SW">Southwest </option>
+													<option value="W">West </option></select>
+												</div>
+
+												<div class="form-group col-lg-5 col-sm-4 col-xs-12">
+													<a name="addr_street_name"></a>
+													<label for="addr_street_name" class=" ">Street Name </label>
+													<input id="addr_street_name" placeholder="" type="text" class="form-control  " size="10" name="addr_street_name" value="Research" maxlength="30">
+												</div>
+												<div class="form-group col-lg-2 col-sm-2 col-xs-12">
+													<a name="addr_street_type"></a>
+													<label for="addr_street_type" class=" ">St/Rd/Ave </label>
+													<select class="form-control" name="addr_street_type" id="addr_street_type" size="1">
+														<option value=""></option>
+														<option value="AVE">Avenue </option>
+														<option value="BLVD" selected="">Boulevard </option>
+														<option value="CIR">Circle </option>
+														<option value="CT">Court </option>
+														<option value="DR">Drive </option>
+														<option value="HWY">Highway </option>
+														<option value="LN">Lane </option>
+														<option value="PKY">Parkway </option>
+														<option value="PL">Place </option>
+														<option value="RD">Road </option>
+														<option value="ST">Street </option>
+														<option value="TER">Terrace </option>
+														<option value="WAY">Way </option></select>
+													</div>
+
+													<div class="form-group col-lg-2 col-sm-2 col-xs-12">
+														<a name="addr_street_dir_post"></a>
+														<label for="addr_street_dir_post" class=" ">Dir Post </label>
+														<select class="form-control  " name="addr_street_dir_post" id="addr_street_dir_post" size="1">
+															<option value=""></option>
+															<option value="E">East </option>
+															<option value="N">North </option>
+															<option value="NE">Northeast </option>
+															<option value="NW">Northwest </option>
+															<option value="S">South </option>
+															<option value="SE">Southeast </option>
+															<option value="SW">Southwest </option>
+															<option value="W">West </option></select>
+														</div>
+													</div>
+
+													<div displayorder="3" id="SB_22" class="form-row d-flex align-items-center">
+														<div class="form-group col-lg-2 col-sm-2 col-xs-12">
+															<a name="addr_unit_type"></a>
+															<label for="addr_unit_type" class=" ">Unit/Apt/Bldg </label>
+															<select class="form-control" name="addr_unit_type" id="addr_unit_type" size="1">
+																<option value="0" selected=""></option>
+																<option value="1">APT </option>
+																<option value="2">BLDG </option>
+																<option value="3">BSMT </option>
+																<option value="4">DEPT </option>
+																<option value="5">FL </option>
+																<option value="6">FRNT </option>
+																<option value="7">HNGR </option>
+																<option value="8">KEY </option>
+																<option value="9">LBBY </option>
+																<option value="10">LOT </option>
+																<option value="11">LOWR </option>
+																<option value="12">OFC </option>
+																<option value="13">PH </option>
+																<option value="14">PIER </option>
+																<option value="15">REAR </option>
+																<option value="16">RM </option>
+																<option value="17">SIDE </option>
+																<option value="18">SLIP </option>
+																<option value="19">SPC </option>
+																<option value="20">STE </option>
+																<option value="21">STOP </option>
+																<option value="22">TRLR </option>
+																<option value="23">UNIT </option>
+																<option value="24">UPPR </option>
+																<option value="25">BOX </option>
+																<option value="26">DORM </option>
+																<option value="27">PO BOX </option>
+																<option value="99">OTHER </option>
+																<option value="999">UK</option></select>
+															</div>
+															<div class="form-group col-lg-1 col-sm-1 col-xs-12">
+																<a name="addr_unit_no"></a>
+																<label for="addr_unit_no" class=" ">Unit # </label>
+																<input id="addr_unit_no" placeholder="" type="text" class="form-control  " size="10" name="addr_unit_no" value="" maxlength="20">
+															</div>
+															<!-- </div>
+															<div displayorder="4" id="SB_28" class="form-row justify-content-center"> -->
+															<div class="form-group col-lg-3 col-sm-3 col-xs-12">
+																<a name="addr_city"></a>
+																<label for="addr_city" class=" ">City </label>
+																<input id="addr_city" placeholder="" type="text" class="form-control  " size="10" name="addr_city" value="Rockville" maxlength="20">
+															</div>
+															<div class="form-group col-lg-2 col-sm-2 col-xs-12">
+																<a name="addr_state"></a>
+																<label for="addr_state" class=" ">State </label>
+																<select class="form-control  " name="addr_state" id="addr_state" size="1">
+																	<option value=""></option>
+																	<option value="AK">Alaska </option>
+																	<option value="AL">Alabama </option>
+																	<option value="AR">Arkansas </option>
+																	<option value="AZ">Arizona </option>
+																	<option value="CA">California </option>
+																	<option value="CO">Colorado </option>
+																	<option value="CT">Connecticut </option>
+																	<option value="DC">Washington DC </option>
+																	<option value="DE">Deleware </option>
+																	<option value="FL">Florida </option>
+																	<option value="GA">Georgia </option>
+																	<option value="HI">Hawaii </option>
+																	<option value="IA">Iowa </option>
+																	<option value="ID">Idaho </option>
+																	<option value="IL">Illonois </option>
+																	<option value="IN">Indiana </option>
+																	<option value="KS">Kansas </option>
+																	<option value="KY">Kentucky </option>
+																	<option value="LA">Louisiana </option>
+																	<option value="MA">Massachusetts </option>
+																	<option value="MD" selected="">Maryland </option>
+																	<option value="ME">Maine </option>
+																	<option value="MI">Michigan </option>
+																	<option value="MN">Minnesota </option>
+																	<option value="MS">Mississippi </option>
+																	<option value="MO">Montana </option>
+																	<option value="NC">North Carolina </option>
+																	<option value="ND">North Dakota </option>
+																	<option value="NE">Nebraska </option>
+																	<option value="NH">New Hampshire </option>
+																	<option value="NJ">New Jersey </option>
+																	<option value="NM">New Mexico </option>
+																	<option value="NV">Nevada </option>
+																	<option value="NY">New York </option>
+																	<option value="OH">Ohio </option>
+																	<option value="OK">Oklahoma </option>
+																	<option value="OR">Oregon </option>
+																	<option value="PA">Pennsylvania </option>
+																	<option value="PR">Puerto Rico </option>
+																	<option value="RI">Rhode Island </option>
+																	<option value="SC">South Carolina </option>
+																	<option value="SD">South Dakota </option>
+																	<option value="TN">Tennessee </option>
+																	<option value="TX">Texas </option>
+																	<option value="UT">Utah </option>
+																	<option value="VA">Viriginia </option>
+																	<option value="VT">Vermont </option>
+																	<option value="WA">Washington </option>
+																	<option value="WI">Wisconsin </option>
+																	<option value="WY">Wyoming </option></select></div>
+																	<div class="form-group col-lg-2 col-sm-2 col-xs-12">
+																		<a name="addr_zip_5"></a>
+																		<label for="addr_zip_5" class=" ">Zip </label>
+																		<input id="addr_zip_5" placeholder="" type="text" class="form-control  " size="10" name="addr_zip_5" value="20850" maxlength="20">
+																	</div>
+																	<div class="form-group col-lg-2 col-sm-2 col-xs-12">
+																		<a name="addr_zip_4"></a><label for="addr_zip_4" class=" ">Zip 2 </label>
+																		<input id="addr_zip_4" placeholder="" type="text" class="form-control  " size="10" name="addr_zip_4" value="" maxlength="20">
+																	</div>
+																</div>
+															</div>
+														</fieldset>
+													</div>
+												</div>
+											</div>
+
+
+
+											<!-- please add buttonGroup class to this row and remove mt-5-->
+
+											<div class="row buttonGroup">
+												<div class="col">
+													<button class="btn btn-outline-secondary" name="SB_nb" value="MovePrev">
+														Back
+													</button>
+
+													<button class="btn btn-outline-primary" name="SB_nb" value="MoveNext">
+														Next
+													</button>
+												</div>
+
+												<div class="col">
+													<span class="badge badge-dark">102</span>
+													<button class="btn btn-outline-secondary" value="MoveSaveExit" name="SB_nb">
+														Save &amp; Continue Later
+													</button>
+												</div>
+											</div>
+
+										</div>
+
+									</div>
+
+								</form>
+
+								<!-- survey form end -->
+
+								<footer>
+
+								</footer>
+
+
+							</div>
+
+
+
+							<script type="text/javascript" src="vendorlibs/jquery.min.js"></script>
+							<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+							<script type="text/javascript" src="vendorlibs/bootstrap/js/bootstrap.min.js"></script>
+							<script type="text/javascript" src="js/index.js"></script>
+						</body>
+
+						</html>
