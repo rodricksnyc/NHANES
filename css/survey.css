@@ -9,7 +9,6 @@ body {
 
 body * {
 
-  word-break: break-word;
   transition: 0.4s all;
 
 }
@@ -91,6 +90,17 @@ body * {
   font-weight: 600 !important;
 
 }
+
+
+.survey-container legend {
+  padding: inherit !important;
+  width: 100% !important;
+  padding: inherit !important;
+  margin-bottom: 0px !important;
+  font-size: inherit !important;
+
+}
+
 
 select {
   background-image:
@@ -192,7 +202,8 @@ select.form-control[size] {
 .survey-container .form-control{
   margin-bottom: 1em;
   border: 1px solid #1A3966;
-
+  color: black;
+  font-weight: 400;
 }
 
 .main {
@@ -231,7 +242,7 @@ fieldset {
 
 .buttonGroup .btn-outline-secondary:hover{
   background: #F7EED4;
-  border: 2px solid #FF8B3D;
+  border: 2px solid #0069AA;
 }
 .buttonGroup .btn-outline-secondary:last-child {
   width: auto;
@@ -438,6 +449,10 @@ td {
     font-weight:500;
     font-size: 15px;
 
+  }
+
+  .survey-wrapper h2 {
+    font-size: 2em;
   }
 
   .survey-wrapper ul {
