@@ -1236,7 +1236,7 @@ label.error{
 }
 
 .menu-buttons {
-  width: 60%;
+  width: 95%;
   margin: -200px auto 60px;
   position: relative;
 }
@@ -3879,9 +3879,7 @@ button.close {
     height: 500px;
   }
 
-  .menu-buttons {
-    width: 85%;
-  }
+
 }
 
 @media (max-width:1560px)  {
