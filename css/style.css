@@ -54,6 +54,33 @@
   opacity:.95
 }
 
+.verse4 {
+  background: url(../img/test.jpg) no-repeat center center;
+  min-height: 70%;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity:.95
+}
+
+.verse4 h2 {
+  padding:3em 0em
+}
+
+p.bluish{
+  color: #003D7E;
+  font-size:18px;
+}
+
+p.bluish.strong.mt-3{
+  color: #003D7E;
+  font-size:24px;
+}
+
+#Privacy{
+  padding-bottom:4em
+}
+
+
 .card-header {
   padding: 0rem;
   margin-bottom: 0;
@@ -772,9 +799,6 @@ span.heading {
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.22);
 }
 
-
-
-
 a.nav-item {
   color:#06639C !important
 }
@@ -790,7 +814,7 @@ a.nav-item {
   justify-content: space-between;
   align-items: center;
   width: auto;
-  min-width: 7em;
+  min-width: 11em;
 }
 
 .landing .fas {
@@ -801,10 +825,10 @@ a.nav-item {
 }
 
 .activeDot{
-  border-radius: 50%;
+  border-radius: .5rem;
   background: #c8eef5;
-  height: 40px;
-  width: 40px;
+  height: 25px;
+  width: 85px;
   position: relative;
   z-index: 2;
   border:1px solid #0069AA;
@@ -822,10 +846,10 @@ a.nav-item {
 }
 
 .inactiveDot{
-  border-radius: 50%;
+  border-radius: .5rem;
   background: transparent;
-  height: 40px;
-  width: 40px;
+  height: 25px;
+  width: 85px;
   position: relative;
   /* top: 0;
   right: 22%; */
@@ -838,9 +862,9 @@ a.nav-item {
   color: #0069AA;
   position: absolute;
   font-size: 15px;
-  top: 24%;
-  left: 24%;
-  font-weight: 600;
+  top: 0;
+  left: 20%;
+  font-weight: 400;
 }
 
 
@@ -1259,7 +1283,7 @@ label.error{
   font-size: 24px;
   font-weight: 600;
   color: white;
-  width: calc(32% - 3rem)!important;
+  width: calc(25% - 3rem)!important;
   height: 140px;
   text-align: center;
   background: linear-gradient(55.7deg, #054E6F -26.73%, #0F82B5 62.95%, #248EFF 120.51%);
@@ -2921,20 +2945,25 @@ p.modalFooter {
 }
 
 .menu-buttons-768-list li:nth-of-type(1) {
-  width:25%;
+  width:20%;
   border-top-left-radius: 5px;
 }
 
 .menu-buttons-768-list li:nth-of-type(2) {
-  width:25%;
+  width:20%;
 }
 
 .menu-buttons-768-list li:nth-of-type(3) {
-  width:25%;
+  width:20%;
   border-top-right-radius: 5px;
 }
 
 .menu-buttons-768-list li:nth-of-type(4) {
+  width:20%;
+  border-top-right-radius: 5px;
+}
+
+.menu-buttons-768-list li:nth-of-type(5) {
   width:19%;
   margin-left:3%;
   color: #003D7E;
@@ -3927,7 +3956,7 @@ button.close {
   }
 
   .menu-buttons {
-    width: 90%;
+    width: 98%;
   }
 
 
@@ -3937,7 +3966,11 @@ button.close {
 
 
 @media (max-width:1024px) and (min-width:992px) {
+  .menu-buttons-list li {
 
+    width: calc(25% - 1rem)!important;
+
+  }
   .hero-img-container {
     height: calc(100vh - 44rem);
 
@@ -4087,7 +4120,7 @@ button.close {
     color: black;
   }
   .menu-buttons-list li{
-    width: calc(32% - 0rem)!important;
+    width: calc(24% - 0rem)!important;
   }
 
   .menu-buttons.noMargin .menu-buttons-list {
@@ -4364,6 +4397,11 @@ button.close {
 }
 
 @media (max-width: 767px) {
+
+  .verse4 h2 {
+    padding: 2em 0em;
+  }
+
 
   .menu-buttons.noMargin .menu-buttons-list li p {
     font-size: 20px;
@@ -4788,7 +4826,6 @@ button.close {
 
   }
 
-
   #FAQ {
     padding: 35px;
     padding-top: 0px;
@@ -4796,19 +4833,31 @@ button.close {
   }
 
   .initials {
-    font-size: 12px;
-    top: 5px;
-    left: 6px;
+    font-size: 13px;
+    top: 2px;
+    left: 12px;
   }
 
   .activeDot, .inactiveDot {
-    height: 30px;
-    width: 30px;
+
+    height: 25px;
+    width: 70px;
+
+  }
+
+  p.bluish.strong.mt-3 {
+    color: #003D7E;
+    font-size: 22px;
+  }
+
+  p.bluish {
+    color: #003D7E;
+    font-size: 16px;
   }
 
   .end {
     position: absolute;
-    right: 10px;
+    right: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -4909,7 +4958,7 @@ button.close {
   .logo {
     max-width: 6em;
     min-width: 0em;
-    margin: 0em 1em;
+    margin: 0em .5em;
   }
 
   .modal-header {
